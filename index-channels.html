@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="app.js" defer></script>
+	<title>VideoService</title>
+</head>
+<body>
+	<div class="_modal" data-modal="modal-1">
+		<div class="overlay">
+			<div class="modal-body">
+				<div class="modal-content modal-call">
+					<div class="modal-call__title"><p>Вход</p></div>
+					<div class="modal-call__text">
+						<input type="text" placeholder="Логин" id="login">
+						<input type="password" placeholder="Пароль">
+						<div class="checkbuttons">
+							<input type="checkbox"><p>Запомнить</p>
+						</div>
+						<button class="modal-close">Войти</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header">
+		<div class="header-logo">
+			<img src="img/sign.png" alt="logo">
+			<p>Видеосервис</p>
+		</div>
+
+		<div class="headet-search">
+			<input type="text" placeholder="Поиск...">
+			<button>Найти</button>
+		</div>
+
+		<div class="header-entrance">
+			<input type="text" id="logname">
+			<button class="modal__btn _modal-open" data-modal-open="modal-1" id="sing">Войти</button>
+		</div>
+	</div>
+	<div class="film-channels">
+		<a href="index-movies.html" class="films-main">Фильмы</a>
+		<a href="index-channels.html" class="channels-main">Телеканалы</a>
+	</div>
+
+	<div class="main-channels">
+		<div class="main-1st">
+			<div class="main-img-1st">
+				<img src="img/1st.png" alt="1st">
+			</div>
+			<div>
+				<div class="text-1st">Первый канал</div>
+			<div class="main-text-1st">
+				<div class="main-date">
+					<p class="red">13:00</p>
+					<p>14:00</p>
+					<p>15:00</p>
+				</div>
+				<div class="main-programs">
+					<p class="red">Новости (с субтитрами)</p>
+					<p>Давай поженимся</p>
+					<p>Другие новости</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="main-2x2">
+			<img src="img/logo.png" alt="2x2">
+			<div>
+				<div class="text-2x2">2x2</div>
+			<div class="main-text-2x2">
+				<div class="main-date-2x2">
+					<p class="red">13:00</p>
+					<p>14:00</p>
+					<p>15:00</p>
+				</div>
+				<div class="main-programs-2x2">
+					<p class="red">МУЛЬТ ТВ. Сезон 4, 7 серия</p>
+					<p>ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</p>
+					<p>БУРДАШЕВ. Сезон 1, 20 серия</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="main-rbk">
+			<img src="img/rbk.png" alt="rbk">
+			<div>
+				<div class="text-rbk">РБК</div>
+			<div class="main-text-rbk">
+				<div class="main-date-rbk">
+					<p class="red">13:00</p>
+					<p>14:00</p>
+					<p>15:00</p>
+				</div>
+				<div class="main-programs-rbk">
+					<p class="red">ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</p>
+					<p>ДЕНЬ. Главные темы</p>
+					<p>Главные новости</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="main-amedia">
+			<img src="img/amedia.png" alt="amedia">
+			<div>
+				<div class="text-amedia">AMEDIA PREMIUM</div>
+			<div class="main-text-amedia">
+				<div class="main-date-amedia">
+					<p class="red">13:00</p>
+					<p>14:00</p>
+					<p>15:00</p>
+				</div>
+				<div class="main-programs-amedia">
+					<p class="red">Клиент всегда мёртв</p>
+					<p>Голодные игры: Сойка-пересмешница. Часть I</p>
+					<p>Секс в большом городе</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="main-2x2">
+			<img src="img/logo.png" alt="2x2">
+			<div>
+				<div class="text-2x2">2x2</div>
+			<div class="main-text-2x2">
+				<div class="main-date-2x2">
+					<p class="red">13:00</p>
+					<p>14:00</p>
+					<p>15:00</p>
+				</div>
+				<div class="main-programs-2x2">
+					<p class="red">МУЛЬТ ТВ. Сезон 4, 7 серия</p>
+					<p>ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</p>
+					<p>БУРДАШЕВ. Сезон 1, 20 серия</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="main-rbk">
+			<img src="img/rbk.png" alt="rbk">
+			<div>
+				<div class="text-rbk">РБК</div>
+			<div class="main-text-rbk">
+				<div class="main-date-rbk">
+					<p class="red">13:00</p>
+					<p>14:00</p>
+					<p>15:00</p>
+				</div>
+				<div class="main-programs-rbk">
+					<p class="red">ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</p>
+					<p>ДЕНЬ. Главные темы</p>
+					<p>Главные новости</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<div class="main-amedia">
+			<img src="img/amedia.png" alt="amedia">
+			<div>
+				<div class="text-amedia">AMEDIA PREMIUM</div>
+			<div class="main-text-amedia">
+				<div class="main-date-amedia">
+					<p class="red">13:00</p>
+					<p>14:00</p>
+					<p>15:00</p>
+				</div>
+				<div class="main-programs-amedia">
+					<p class="red">Клиент всегда мёртв</p>
+					<p>Голодные игры: Сойка-пересмешница. Часть I</p>
+					<p>Секс в большом городе</p>
+				</div>
+			</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="footer">
+		<div class="footer-logo">
+			<a href="htc-cs.ru"><img src="img/htc-cs-logo.png" alt="footer-logo"></a>
+		</div>
+
+		<div class="footer-conntacts">
+			<p>426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</p>
+			<p>+7 (3412) 93-88-61, 43-29-29</p>
+			<a href="htc-cs.ru">htc-cs.ru</a>
+		</div>
+	</div>
+</body>
+</html>
